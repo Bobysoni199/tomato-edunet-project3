@@ -1,37 +1,8 @@
-# Getting Started
+# React + Vite
 
-- First of all, you will need to create a database with Atlas MongoDB.
-- Also have a Stripe account so you can get your SECRET STRIPE KEY.
- Installation
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-<h2>How to install/setup the Front-End</h2>
+Currently, two official plugins are available:
 
-> Open a terminal in VS Code and go into the frontend folder and then run
-
->❗Open the frontend first [http://localhost:5173](http://localhost:5173)
-
-
-```
-npm install
-npm run dev
-```
-
-
-<h2>How to install/setup the Admin Page</h2>
-
-> Open a terminal in VS Code and go into the admin folder and then run
-
->❗Open the admin after the frontend. [http://localhost:5174](http://localhost:5174)
-
-```
-npm install
-npm run dev
-```
-   
-<h2>How to install/setup the Backend</h2>
-
-> Open a terminal in VS Code and go into the backend folder and then run
-
-```
-npm start server
-```
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
